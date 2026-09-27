@@ -1,0 +1,24 @@
+# Local environments and Python caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+# Generated experiments stay separate from the historical archive
+/results/
+/outputs/
+/benchmarks/synthetic/
+# Local editor/configuration files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+*.log
+/data/generated-*/

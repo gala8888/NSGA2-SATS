@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "dataset": "AFIT1–AFIT7",
+  "source_page": "https://www.cs.colostate.edu/sched/data.html",
+  "archive_url": "https://www.cs.colostate.edu/sched/data/AFIT.tgz",
+  "verified_at": "2026-09-18",
+  "archive_sha256": "0089daef3500d1ef9db144a43738584900c33342c9b458223e6867bc331d0612",
+  "upstream_readme_sha256": "d5f0a0a1af146beebcc2db3f07413d39a1d244a0765c855aa2e592dad47d3dc7",
+  "license_status": "No explicit license found in the source page or archive README; availability is not a license grant.",
+  "interpretation": "Paper variant: all 19 antenna labels retained. Upstream README excludes INDI-B, PIKE-B, REEF-B in original AFSCN evaluation.",
+  "scenarios": [
+    {
+      "scenario": 1,
+      "low_tasks": 153,
+      "high_tasks": 169,
+      "antennas": 19
+    },
+    {
+      "scenario": 2,
+      "low_tasks": 137,
+      "high_tasks": 165,
+      "antennas": 19
+    },
+    {
+      "scenario": 3,
+      "low_tasks": 146,
+      "high_tasks": 164,
+      "antennas": 19
+    },
+    {
+      "scenario": 4,
+      "low_tasks": 142,
+      "high_tasks": 176,
+      "antennas": 19
+    },
+    {
+      "scenario": 5,
+      "low_tasks": 142,
+      "high_tasks": 163,
+      "antennas": 19
+    },
+    {
+      "scenario": 6,
+      "low_tasks": 144,
+      "high_tasks": 155,
+      "antennas": 19
+    },
+    {
+      "scenario": 7,
+      "low_tasks": 142,
+      "high_tasks": 155,
+      "antennas": 19
+    }
+  ],
+  "files": [
+    {
+      "path": "benchmarks/afit/reqlf12.dat",
+      "source": "AFIT/BenchMarks/reqlf12.dat",
+      "bytes": 14910,
+      "sha256": "00f328eb6b21828247ab156d35b9530ec3142b7ed29bac09b7cf6a5414d41cd7",
+      "upstream_sha256": "00f328eb6b21828247ab156d35b9530ec3142b7ed29bac09b7cf6a5414d41cd7",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp12.dat",
+      "source": "AFIT/BenchMarks/requp12.dat",
+      "bytes": 58212,
+      "sha256": "a33bdfb1ebe56addc3a88a298cfe51f63a1da3bc40022f7601ffeb8ec638dabe",
+      "upstream_sha256": "a33bdfb1ebe56addc3a88a298cfe51f63a1da3bc40022f7601ffeb8ec638dabe",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf13.dat",
+      "source": "AFIT/BenchMarks/reqlf13.dat",
+      "bytes": 13062,
+      "sha256": "e74957bddf36ae745872758249ef0f15e11331ae32da3c9d3c296fd1c7c652bb",
+      "upstream_sha256": "e74957bddf36ae745872758249ef0f15e11331ae32da3c9d3c296fd1c7c652bb",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp13.dat",
+      "source": "AFIT/BenchMarks/requp13.dat",
+      "bytes": 68544,
+      "sha256": "f77a137dc17a33841d7eed7b280444ee2882433b21c68b85314e16c12c0c88f5",
+      "upstream_sha256": "f77a137dc17a33841d7eed7b280444ee2882433b21c68b85314e16c12c0c88f5",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf14.dat",
+      "source": "AFIT/BenchMarks/reqlf14.dat",
+      "bytes": 14196,
+      "sha256": "a601081e87c12e271909c61f6fa1a6d508b62ca4655dd6f095879f0df982aeb3",
+      "upstream_sha256": "a601081e87c12e271909c61f6fa1a6d508b62ca4655dd6f095879f0df982aeb3",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp14.dat",
+      "source": "AFIT/BenchMarks/requp14.dat",
+      "bytes": 66654,
+      "sha256": "0fbeed30ed34584bc0a4bf68c85920177461156639c5161a9f6110c585531caf",
+      "upstream_sha256": "0fbeed30ed34584bc0a4bf68c85920177461156639c5161a9f6110c585531caf",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf15.dat",
+      "source": "AFIT/BenchMarks/reqlf15.dat",
+      "bytes": 14154,
+      "sha256": "8df77d9fc605e151b4ba61f15cd857446ef0031bf09362d3a9c5c2c2433c994f",
+      "upstream_sha256": "8df77d9fc605e151b4ba61f15cd857446ef0031bf09362d3a9c5c2c2433c994f",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp15.dat",
+      "source": "AFIT/BenchMarks/requp15.dat",
+      "bytes": 70392,
+      "sha256": "7f120763849b017b134ff2a6b267fc94e5661b9b37f9e27fdbbd535ee269596f",
+      "upstream_sha256": "7f120763849b017b134ff2a6b267fc94e5661b9b37f9e27fdbbd535ee269596f",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf16.dat",
+      "source": "AFIT/BenchMarks/reqlf16.dat",
+      "bytes": 14196,
+      "sha256": "e0203c70d93f6d4f72b39b64a1e0d3dadadbee1a6284116d5948e97b77160d69",
+      "upstream_sha256": "e0203c70d93f6d4f72b39b64a1e0d3dadadbee1a6284116d5948e97b77160d69",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp16.dat",
+      "source": "AFIT/BenchMarks/requp16.dat",
+      "bytes": 65604,
+      "sha256": "95fc3309052fe4719e326c84808dde8c3a4c5be08bb2f6be306db28bbc6724ef",
+      "upstream_sha256": "95fc3309052fe4719e326c84808dde8c3a4c5be08bb2f6be306db28bbc6724ef",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf17.dat",
+      "source": "AFIT/BenchMarks/reqlf17.dat",
+      "bytes": 14490,
+      "sha256": "cd003cfb4bc21372a0d73d4d6bb5e8d5e3a7f9bdf9cd1ec42669989362d5d5c9",
+      "upstream_sha256": "cd003cfb4bc21372a0d73d4d6bb5e8d5e3a7f9bdf9cd1ec42669989362d5d5c9",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp17.dat",
+      "source": "AFIT/BenchMarks/requp17.dat",
+      "bytes": 63882,
+      "sha256": "27c429c7fbd2f464d81078d9b4dbc5d380d26ee51cc3762a02fcc58cec4d6b2c",
+      "upstream_sha256": "27c429c7fbd2f464d81078d9b4dbc5d380d26ee51cc3762a02fcc58cec4d6b2c",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/reqlf18.dat",
+      "source": "AFIT/BenchMarks/reqlf18.dat",
+      "bytes": 13440,
+      "sha256": "9667cc6d57f67fbfbba685492430ae4ad7550d1a1633bbb3af44b13b63fbac68",
+      "upstream_sha256": "9667cc6d57f67fbfbba685492430ae4ad7550d1a1633bbb3af44b13b63fbac68",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    },
+    {
+      "path": "benchmarks/afit/requp18.dat",
+      "source": "AFIT/BenchMarks/requp18.dat",
+      "bytes": 64680,
+      "sha256": "eb62d4adee19578f9a6d4cbd01411979d2d2886c2ed3ad1716de213cabeaabc3",
+      "upstream_sha256": "eb62d4adee19578f9a6d4cbd01411979d2d2886c2ed3ad1716de213cabeaabc3",
+      "byte_identical_to_upstream": true,
+      "normalized_text_matches": true
+    }
+  ]
+}

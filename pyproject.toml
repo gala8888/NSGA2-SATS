@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+  "ignore:.*row_stack.*:DeprecationWarning:pymoo.*",
+  "ignore:.*feasible.*deprecated:DeprecationWarning:pymoo.*",
+]

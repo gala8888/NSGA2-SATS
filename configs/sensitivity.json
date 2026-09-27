@@ -1,0 +1,202 @@
+{
+  "population": 100,
+  "generations": 500,
+  "runs": 30,
+  "scenarios": [
+    1
+  ],
+  "variants": [
+    "full"
+  ],
+  "data_dir": "benchmarks/afit",
+  "reference_point": [
+    1.1,
+    1.1
+  ],
+  "algorithm": {
+    "crossover_probability": 0.6,
+    "mutation_probability": 0.3,
+    "local_search_probability": 0.3,
+    "local_search_iterations": 23,
+    "tabu_length": 20,
+    "initial_temperature": 100,
+    "cooling_rate": 0.9,
+    "strong_reward": 0.5,
+    "weak_reward": 0.3,
+    "load_weight": 0.5,
+    "capacity_weight": 0.5,
+    "transfer_factor": 0.5
+  },
+  "implementation": "paper-aligned-implementation",
+  "default_set": "primary",
+  "notes": [
+    "Primary L9 parameter triples follow Supplement Appendix E.",
+    "Common budget: population 100, 500 generations, 30 trials.",
+    "Transfer/local sweeps follow the retained parameter-analysis settings.",
+    "All non-varied parameters use the final paper settings."
+  ],
+  "sweeps": {
+    "primary": [
+      {
+        "name": "primary_1",
+        "algorithm": {
+          "crossover_probability": 0.6,
+          "mutation_probability": 0.1,
+          "local_search_probability": 0.1
+        }
+      },
+      {
+        "name": "primary_2",
+        "algorithm": {
+          "crossover_probability": 0.6,
+          "mutation_probability": 0.2,
+          "local_search_probability": 0.2
+        }
+      },
+      {
+        "name": "primary_3",
+        "algorithm": {
+          "crossover_probability": 0.6,
+          "mutation_probability": 0.3,
+          "local_search_probability": 0.3
+        }
+      },
+      {
+        "name": "primary_4",
+        "algorithm": {
+          "crossover_probability": 0.8,
+          "mutation_probability": 0.1,
+          "local_search_probability": 0.2
+        }
+      },
+      {
+        "name": "primary_5",
+        "algorithm": {
+          "crossover_probability": 0.8,
+          "mutation_probability": 0.2,
+          "local_search_probability": 0.3
+        }
+      },
+      {
+        "name": "primary_6",
+        "algorithm": {
+          "crossover_probability": 0.8,
+          "mutation_probability": 0.3,
+          "local_search_probability": 0.1
+        }
+      },
+      {
+        "name": "primary_7",
+        "algorithm": {
+          "crossover_probability": 1,
+          "mutation_probability": 0.1,
+          "local_search_probability": 0.3
+        }
+      },
+      {
+        "name": "primary_8",
+        "algorithm": {
+          "crossover_probability": 1,
+          "mutation_probability": 0.2,
+          "local_search_probability": 0.1
+        }
+      },
+      {
+        "name": "primary_9",
+        "algorithm": {
+          "crossover_probability": 1,
+          "mutation_probability": 0.3,
+          "local_search_probability": 0.2
+        }
+      }
+    ],
+    "transfer": [
+      {
+        "name": "transfer_0p2",
+        "algorithm": {
+          "transfer_factor": 0.2
+        }
+      },
+      {
+        "name": "transfer_0p3",
+        "algorithm": {
+          "transfer_factor": 0.3
+        }
+      },
+      {
+        "name": "transfer_0p4",
+        "algorithm": {
+          "transfer_factor": 0.4
+        }
+      },
+      {
+        "name": "transfer_0p5",
+        "algorithm": {
+          "transfer_factor": 0.5
+        }
+      },
+      {
+        "name": "transfer_0p6",
+        "algorithm": {
+          "transfer_factor": 0.6
+        }
+      },
+      {
+        "name": "transfer_0p7",
+        "algorithm": {
+          "transfer_factor": 0.7
+        }
+      },
+      {
+        "name": "transfer_0p8",
+        "algorithm": {
+          "transfer_factor": 0.8
+        }
+      }
+    ],
+    "local": [
+      {
+        "name": "local_5",
+        "algorithm": {
+          "local_search_iterations": 5
+        }
+      },
+      {
+        "name": "local_8",
+        "algorithm": {
+          "local_search_iterations": 8
+        }
+      },
+      {
+        "name": "local_11",
+        "algorithm": {
+          "local_search_iterations": 11
+        }
+      },
+      {
+        "name": "local_15",
+        "algorithm": {
+          "local_search_iterations": 15
+        }
+      },
+      {
+        "name": "local_19",
+        "algorithm": {
+          "local_search_iterations": 19
+        }
+      },
+      {
+        "name": "local_23",
+        "algorithm": {
+          "local_search_iterations": 23
+        }
+      },
+      {
+        "name": "local_27",
+        "algorithm": {
+          "local_search_iterations": 27
+        }
+      }
+    ]
+  }
+}

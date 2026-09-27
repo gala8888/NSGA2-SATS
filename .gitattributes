@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+# Preserve archived/input bytes across Git checkout so recorded hashes survive.
+*.dat -text
+*.csv -text
+benchmarks/afit/** -text
+historical/** -text

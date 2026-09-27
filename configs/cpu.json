@@ -1,0 +1,47 @@
+{
+  "population": 100,
+  "generations": 500,
+  "runs": 30,
+  "scenarios": [
+    1
+  ],
+  "variants": [
+    "full"
+  ],
+  "data_dir": "benchmarks/afit",
+  "reference_point": [
+    1.1,
+    1.1
+  ],
+  "algorithm": {
+    "crossover_probability": 0.6,
+    "mutation_probability": 0.3,
+    "local_search_probability": 0.3,
+    "local_search_iterations": 23,
+    "tabu_length": 20,
+    "initial_temperature": 100,
+    "cooling_rate": 0.9,
+    "strong_reward": 0.5,
+    "weak_reward": 0.3,
+    "load_weight": 0.5,
+    "capacity_weight": 0.5,
+    "transfer_factor": 0.5
+  },
+  "implementation": "paper-aligned-implementation",
+  "threshold_fractions": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    1
+  ],
+  "hv_target": null,
+  "cpu_budget_seconds": null,
+  "notes": [
+    "Supply an absolute HV target and a CPU-time budget explicitly for each run.",
+    "The retained timing script uses target 0.945 and 3600 CPU seconds as an example.",
+    "Common paper settings: population 100, 500 generations, 30 trials. Timing depends on hardware.",
+    "Measurements start before initialization; sample at generation boundaries and censor hits beyond budget."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "population": 100,
+  "generations": 200,
+  "runs": 30,
+  "scenarios": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "variants": [
+    "full",
+    "no_pdac",
+    "no_lcam",
+    "no_sats",
+    "base"
+  ],
+  "data_dir": "benchmarks/afit",
+  "reference_point": [
+    1.1,
+    1.1
+  ],
+  "algorithm": {
+    "crossover_probability": 0.6,
+    "mutation_probability": 0.3,
+    "local_search_probability": 0.3,
+    "local_search_iterations": 23,
+    "tabu_length": 20,
+    "initial_temperature": 100,
+    "cooling_rate": 0.9,
+    "strong_reward": 0.5,
+    "weak_reward": 0.3,
+    "load_weight": 0.5,
+    "capacity_weight": 0.5,
+    "transfer_factor": 0.5
+  },
+  "implementation": "paper-aligned-implementation",
+  "notes": [
+    "Supplement ablation: five variants; 100 population, 200 generations, 30 trials.",
+    "base is the NSGA-II ablation control only."
+  ]
+}

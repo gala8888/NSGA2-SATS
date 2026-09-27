@@ -1,0 +1,53 @@
+{
+  "population": 100,
+  "generations": 200,
+  "runs": 30,
+  "scenarios": [
+    8,
+    9,
+    10
+  ],
+  "variants": [
+    "full",
+    "base"
+  ],
+  "data_dir": null,
+  "reference_point": [
+    1.1,
+    1.1
+  ],
+  "algorithm": {
+    "crossover_probability": 0.6,
+    "mutation_probability": 0.3,
+    "local_search_probability": 0.3,
+    "local_search_iterations": 23,
+    "tabu_length": 20,
+    "initial_temperature": 100,
+    "cooling_rate": 0.9,
+    "strong_reward": 0.5,
+    "weak_reward": 0.3,
+    "load_weight": 0.5,
+    "capacity_weight": 0.5,
+    "transfer_factor": 0.5
+  },
+  "implementation": "paper-aligned-implementation",
+  "expected_shapes": {
+    "8": [
+      500,
+      24
+    ],
+    "9": [
+      750,
+      30
+    ],
+    "10": [
+      1000,
+      38
+    ]
+  },
+  "notes": [
+    "Appendix J: population 100, 200 generations, 30 trials; task/antenna counts 500/24, 750/30, 1000/38.",
+    "Supply inputs through --data-dir. Input dimensions are validated before execution.",
+    "base is the NSGA-II control used for this experiment; data provenance is recorded in each run."
+  ]
+}
